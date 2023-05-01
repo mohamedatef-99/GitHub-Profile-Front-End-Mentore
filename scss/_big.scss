@@ -1,0 +1,27 @@
+@media (min-width: 992px) {
+	.wrapper {
+		max-width: 730px;
+	}
+	.content {
+		position: relative;
+	}
+	.result {
+		width: 70%;
+		margin-left: 30%;
+		padding-left: 0;
+		.desktop_avatar {
+			position: absolute;
+			left: 0;
+			width: 30%;
+			display: flex;
+			justify-content: center;
+		}
+		&__avatar {
+			margin: 0;
+		}
+		&__joined {
+			position: absolute;
+			right: 2em;
+		}
+	}
+}

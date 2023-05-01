@@ -1,0 +1,52 @@
+.wrapper {
+	width: 100%;
+	max-width: 573px;
+	padding: 0 0.5em;
+}
+h1 {
+	font-size: 2.6rem;
+	line-height: 3.2rem;
+}
+h2 {
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+}
+h1,
+h2 {
+	font-weight: 700;
+	color: var(--text-secondary);
+}
+h3 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	color: var(--primary);
+}
+a {
+	text-decoration: none;
+	color: var(--text);
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.undefined {
+	opacity: 0.6;
+}
+.content {
+	display: flex;
+	background-color: var(--content-background);
+	border-radius: 12px;
+	box-shadow: var(--shadow);
+}
+@media (min-width: 586px) {
+	body {
+		font-size: 1.5rem;
+	}
+	h2 {
+		font-size: 2.6rem;
+		line-height: 3.2rem;
+	}
+	h3 {
+		font-size: 1.6rem;
+		line-height: 2.5rem;
+	}
+}

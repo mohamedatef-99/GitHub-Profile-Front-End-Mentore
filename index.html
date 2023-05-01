@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 class="logo">devfinder</h1>
+      <button class="toggleTheme"></button>
+    </header>
+    <main>
+      <section class="content search">
+        <img src="./assets/icon-search.svg" class="search__icon" alt="">
+        <input type="text" class="search__input" placeholder="Search GitHub username..."></input>
+        <p class="search__error"></p>
+        <button class="search__enter">Search</button>
+      </section>
+      <section class="content">
+        <div class="result">
+          <div class="result__top">
+            <div class="desktop_avatar">
+              <img src="" alt="User avatar" class="result__avatar">
+            </div>
+            <div class="result__top-info">
+              <h2 class="result_nickname"></h2>
+              <h3 class="result__login"></h3>
+              <p class="result__joined"></p>
+            </div>
+          </div>
+          <p class="result__description"></p>
+          <div class="result__stats">
+            <div>
+              <p>Repos</p>
+              <h2 class="result__repos">0</h2>
+            </div>
+            <div>
+              <p>Followers</p>
+              <h2 class="result__followers">0</h2>
+            </div>
+            <div>
+              <p>Following</p>
+              <h2 class="result__following">0</h2>
+            </div>
+          </div>
+          <div class="result__links">
+            <div class="result__links-location"></div>
+            <div class="result__links-website"></div>
+            <div class="result__links-twitter"></div>
+            <div class="result__links-company"></div>
+            </ul>
+          </div>
+      </section>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

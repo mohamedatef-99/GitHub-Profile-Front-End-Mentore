@@ -1,0 +1,33 @@
+@media (min-width: 586px) {
+	.search {
+		&__input {
+			font-size: 1.8rem;
+		}
+	}
+	.result {
+		&__avatar {
+			width: 120px;
+			height: 120px;
+			margin-right: 2.5em;
+		}
+		&__stats {
+			padding: 1em 2.5em;
+			div {
+				align-items: flex-start;
+				width: 33%;
+				font-size: 1.3rem;
+				h2 {
+					font-size: 2.2rem;
+				}
+			}
+		}
+		&__links {
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 0.8em;
+			div {
+				width: 48%;
+			}
+		}
+	}
+}
